@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Text and Images</title>
+    <style>
+        body {
+            background: url('https://getwallpapers.com/wallpaper/full/0/1/8/1199807-4k-ultra-hd-nature-wallpaper-3840x2160-windows-10.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .styled-div {
+            font-size: 42px;
+            font-family: 'Brush Script MT', cursive;
+            font-weight: 300;
+            font-style: normal;
+            color: ghostwhite;
+            text-align: center;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: black;
+            padding: 10px;
+             margin: 20px;
+        }
+
+        .text-decoration-right {
+            text-align:right;
+            font-size: 20px;
+            text-shadow: 3px 3px 2px red;
+            text-decoration-line: underline;
+            color: antiquewhite;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .text-decoration {
+            text-align:left;
+            font-size: 24px;
+            text-shadow: 2px 2px 3px black;
+            text-decoration: overline;
+            color: fuchsia;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        .images-container {
+            display: grid;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .image-left, .image-left-small {
+            width: 30%;
+            border: 2px solid white;
+            box-shadow: 6px 6px black;
+            margin-right: 10px;
+        }
+
+        .image-left-small {
+            width: 30%;
+        }
+
+        .image-right {
+            width: 30%;
+            border: 2px solid white;
+            box-shadow: 6px 6px black;   
+        }
+        .para {
+            width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  /* background-color: lightgray; */
+  /* background-image: linear-gradient(to top, red,orange,yellow,green,blue,indigo,violet); */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,88,9,1) 35%, rgba(0,212,255,1) 100%);
+  /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    }
+    </style>
+</head>
+<body>
+    <div class="styled-div">
+       Look Deep In To Nature, And Then You Will Understand Everything Better..!
+    </div>
+    <div class="text-decoration">
+        The Poerty Of Earth is Never Dead....!
+    </div>
+    <div class="text-decoration-right">
+        Nature always wears the colors of the spirit..!
+    </div>
+    <aside>
+        <div class="para">
+            <p>Love towards nature is a deep appreciation and respect for the environment and all living things within it. This love often manifests in a desire to protect and preserve natural ecosystems, 
+                a sense of awe at the beauty of landscapes, and a commitment to living in harmony with the Earth. It can involve activities like hiking, gardening, wildlife conservation, and advocating for
+                 sustainable practices. For many, this connection with nature brings peace, inspiration, and a sense of belonging to the larger web of life.A nature lover is a person who’s connected to the 
+                 natural world around them. They understand that humans and nature must cohabitate and thrive together.
+                 A nature lover thinks deeply about the connection between human life and nature, and how they can help one another</p>
+        </div>
+    <div class="images-container">
+        <div>
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" class="image-left" alt="First Image">
+    </div>
+    <div>
+    <img src="https://img.cdn-pictorem.com/uploads/collection/G/GC7DLF7KTE/900_fabartdesigns_151.jpg" class="image-left-small" alt="Second Image">
+</div>
+<div>
+ <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600"  class="image-right"alt="third image">
+</div>
+</div>
+    <!-- <aside>
+    <div class="para">
+        <p>Love towards nature is a deep appreciation and respect for the environment and all living things within it. This love often manifests in a desire to protect and preserve natural ecosystems, a sense of awe at the beauty of landscapes, and a commitment to living in harmony with the Earth. It can involve activities like hiking, gardening, wildlife conservation, and advocating for sustainable practices. For many, this connection with nature brings peace, inspiration, and a sense of belonging to the larger web of life.</p>
+    </div> -->
+</aside>
+</body>
+</html>
