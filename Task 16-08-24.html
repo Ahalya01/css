@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Layout</title>
+    <style>
+       body {
+    font-family:'Brush Script MT', cursive;
+    background-color:lavender;
+}
+
+.header {
+    background-color: hotpink;
+    width: 100%;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 150px;
+    width: 300px;
+}
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+}
+
+.left-column img, .right-column img, .center-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Radha Krishnaa..!</h1>
+    </div>
+    <div class="container">
+        <div class="left-column">
+            <img src="https://i.pinimg.com/736x/dd/71/89/dd71898d5dad6b711b8d34dae5924d82.jpg" alt="Image 1">
+            <img src="https://static.iwmbuzz.com/wp-content/uploads/2019/10/radhakrishn-radha-and-krishnas-love-journey-to-begin-920x518.jpg" alt="Image 2">
+            <br>
+            <br>
+            <br>
+            <img src="./IMAGES/Screenshot 2024-08-16 173234.png" alt="Image 3">
+            <img src="./IMAGES/Screenshot 2024-08-16 173144.png" alt="Image 4">
+        </div>
+        <div class="center-column">
+            <img src="./IMAGES/Screenshot 2024-08-16 172828.png" alt="Main Image">
+        </div>
+        <div class="right-column">
+            <img src="https://wallpapers.com/images/hd/radha-krishna-serial-romantic-3vm7l35pqusadb5w.jpg" alt="Image 5">
+            <img src="https://i.pinimg.com/736x/8f/76/4e/8f764e8e8edb8ea00bc2c59ba2ea7907.jpg" alt="Image 6">
+            <br>
+            <br>
+            <br>
+            <img src="./IMAGES/Screenshot 2024-08-16 172817.png" alt="Image 7">
+            <img src="./IMAGES/Screenshot 2024-08-16 173304.png" alt="Image 8">
+        </div>
+    </div>
+</body>
+</html>
