@@ -1,0 +1,245 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    background-color: #e4e3e3;
+}
+header ,footer {
+    padding: 8px;
+    background: #2196F3;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+    top: -3em;
+   
+}
+header nav ul {
+    padding: 10px;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section{
+    padding: 40px;
+}
+#home{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+#about{
+    text-align:left;
+    background-color: #fff;
+    margin-left: 160px;
+    margin-right:160px;
+    font-size: 16px;
+}
+#about img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+#w{
+    font-size: 20px;
+    padding-left: 30px;
+    display: inline;
+    position: relative;
+    bottom: 4em;
+}
+
+#skills{
+    background-color: #fff;
+    margin-left: 160px;
+    margin-right:160px;
+}
+table{
+    border: 1;
+    width: 100%;
+    border-collapse: collapse;
+}
+#skills th{
+    background-color: lightskyblue;
+}
+#skills table, #skills th, #skills td {
+    border: 2px solid #ddd;
+}
+
+#skills th, #skills td {
+    padding: 14px;
+    text-align: center;
+}
+#portfolio{
+    background-color: #fff;
+    margin-left: 160px;
+    margin-right:160px;
+}
+#portfolio .projects {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+#portfolio .project {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+#contact{
+    background-color: #fff;
+    margin-left: 160px;
+    margin-right:160px;
+    font-size: 15px;
+}
+#contact form label {
+    margin-bottom: 5px;
+}
+#contact input, #contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 800px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#contact button {
+    padding: 10px;
+    background:green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+#contact form button:hover {
+    background:#2196F3;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:#2196F3;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #2196F3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#skills table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skills table, #skills th, #skills td {
+    border: 1px solid #ddd;
+}
+
+#skills th, #skills td {
+    padding: 8px;
+    text-align: left;
+}
+
+#portfolio .projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+#portfolio .project {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    margin-bottom: 5px;
+}
+
+#contact form input, #contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px;
+    background: #2196F3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact form button:hover {
+    background: #0b7dda;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+} */

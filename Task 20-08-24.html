@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./200824.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+    <br>
+    <section id="about">
+        <h2>About Me</h2>
+        <div>
+        <img src="https://img.freepik.com/premium-photo/anime-beautiful-girl-photographer-images-with-ai-generated_545052-339.jpg" alt="Your Photo">
+        <p id="w">Hello! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+        </div>
+    </section>
+    <br>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVQOF1OKH4Ggo1gexSkDtSbzmPxVJn43Qf25SJQn9zO6XTAojiTu3Nhc8hOJttmDq9_A&usqp=CAU" alt="">
+                <h3>Anti Sleep Alaram</h3>
+                <p>Designed and implemented an IoT-based Anti Sleep Alaram System to mitigate the risk of accidents caused by 
+                    drowsy driving, enhancing road safety.</p>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-8O_9ySX53XgoWEuuc8tKZdIuhRrq_mL3g&s" alt="">
+                <h3>Automatic Question Paper Generator</h3>
+                <p>It developed to streamline the creation and distribution of exam papers, enhancing efficiency, 
+                    accuracy and reducing time in academic institutions.</p>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjwquf1kQtNJFnZG3aexJ_6KEGSwLM1p4cCkIIEAsSfSnEkVNlbvhPAHCv8N74FX4lRvk&usqp=CAU" alt="">
+                <h3>Resume Screening APP</h3>
+                <p>The project uses NLP techniques like S-BERT and cosine similarity to automatically screen and rank resumes based on their match to a job description..</p>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <pre>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="subject">Subject:</label> 
+            <input type="text" id="subject" name="subject">
+            <br>
+            <label for="message">Message:</label> 
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send Message</button>
+        </pre>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
