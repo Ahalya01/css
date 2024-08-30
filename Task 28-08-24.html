@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+
+        section {
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .project-bar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .project {
+            flex: 1 1 45%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 670px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .nav-links a {
+                padding: 8px 12px;
+                font-size: 16px;
+            }
+
+            .project-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .project {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>A brief introduction about yourself.</p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-bar">
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvVQOF1OKH4Ggo1gexSkDtSbzmPxVJn43Qf25SJQn9zO6XTAojiTu3Nhc8hOJttmDq9_A&usqp=CAU"
+                    alt="">
+                <h3>Anti Sleep Alaram</h3>
+                <p>Designed and implemented an IoT-based Anti Sleep Alaram System to mitigate the risk of accidents
+                    caused by
+                    drowsy driving, enhancing road safety.</p>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-8O_9ySX53XgoWEuuc8tKZdIuhRrq_mL3g&s"
+                    alt="">
+                <h3>Automatic Question Paper Generator</h3>
+                <p>It developed to streamline the creation and distribution of exam papers, enhancing efficiency,
+                    accuracy and reducing time in academic institutions.</p>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <pre>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label> 
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="subject">Subject:</label> 
+            <input type="text" id="subject" name="subject">
+            <br>
+            <label for="message">Message:</label> 
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send Message</button>
+        </pre>
+        </form>
+    </section>
+</body>
+
+</html>
